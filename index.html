@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fence Posts That Stay Straight — Concrete Post Hole Guide & Estimator</title>
+<meta name="description" content="Size fence post holes, set posts plumb, and order the right amount of concrete so fences stay straight for years.">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Arial,sans-serif;color:#222;line-height:1.65;background:#f0fdf4}
+  a{color:#166534}
+  .hero{background:#14532d;color:#f0fdf4;padding:58px 22px}
+  .inner{max-width:860px;margin:0 auto}
+  .hero h1{font-size:2.3rem;line-height:1.2;margin:12px 0}
+  .hero p{max-width:640px;opacity:.93}
+  .hero a.btn{display:inline-block;margin-top:20px;background:#86efac;color:#111!important;text-decoration:none;font-weight:800;padding:13px 24px;border-radius:8px}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
+  .card{background:#fff;border-radius:12px;padding:26px;margin:-20px auto 30px;box-shadow:0 4px 16px rgba(0,0,0,.07)}
+  .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-top:14px}
+  @media(max-width:560px){.grid{grid-template-columns:1fr}.hero h1{font-size:1.85rem}}
+  label{font-weight:700;font-size:.92rem}
+  input,select{width:100%;padding:10px;margin-top:5px;border:1px solid #bbb;border-radius:8px;font-size:1rem}
+  button{width:100%;margin-top:16px;padding:13px;background:#166534;color:#fff;border:none;border-radius:8px;font-weight:800;font-size:1rem;cursor:pointer}
+  #res{display:none;margin-top:16px;background:#dcfce7;border:1px solid #86efac;border-radius:8px;padding:16px}
+  #res.show{display:block}
+  #res .big{font-size:1.5rem;font-weight:800}
+  h2{margin:28px 0 12px}
+  .box{background:#fff;border-radius:10px;padding:22px;margin-bottom:28px}
+  .box li{margin:0 0 10px 20px}
+  .faq details{background:#fff;border-radius:8px;padding:14px 18px;margin-bottom:10px}
+  .faq summary{font-weight:700;cursor:pointer}
+  .faq p{margin-top:8px;color:#444}
+  .end{background:#14532d;color:#f0fdf4;text-align:center;padding:38px 20px;border-radius:12px;margin-bottom:30px}
+  .end a{color:#86efac}
+  footer{text-align:center;color:#666;font-size:.9rem;padding:20px 20px 40px}
+</style>
+</head>
+<body>
+<div class="hero"><div class="inner">
+  <p><strong>FENCE POSTS • GATE POSTS • MAILBOX BASES • FROST</strong></p>
+  <h1>Fence Posts That Stay Straight</h1>
+  <p>Most leaning fences do not fail at the rail. They fail at the hole: too shallow, too narrow, or set in wet soil that heaves. Get the hole right and the fence stays plumb.</p>
+  <p><a class="btn" href="https://concretecalcus.com/">Open the Free Calculators &rarr;</a></p>
+</div></div>
+
+<div class="wrap">
+  <div class="card">
+    <h2>Post Hole Estimator</h2>
+    <p>For round post holes. Enter the hole size and depth, and the estimator gives you the volume per hole, a buffer, and a bag count.</p>
+    <div class="grid">
+      <div><label>Hole diameter (in)<input type="number" id="a" min="0" step="1" value="12"></label></div>
+      <div><label>Hole depth (in)<input type="number" id="b" min="0" step="1" value="30"></label></div>
+      <div><label>Number of holes<input type="number" id="c" min="0" step="1" value="8"></label></div>
+    </div>
+    <label style="display:block;margin-top:12px">Soil / waste buffer<select id="d"><option value="0.05">5% — clean, firm hole</option><option value="0.10" selected>10% — typical garden soil</option><option value="0.15">15% — loose or caving soil</option></select></label>
+    <button onclick="calc()">Estimate My Post Holes</button>
+    <div id="res"></div>
+    <p style="margin-top:12px;font-size:.92rem">For slabs, footings, stairs, walls and a full cost breakdown, <a href="https://concretecalcus.com/">use the complete free toolset on ConcreteCalcus</a>.</p>
+  </div>
+
+  <h2>Three Rules for a Post That Does Not Lean</h2>
+  <div class="box"><ul>
+    <li><strong>Depth beats width:</strong> a common rule is one-third of the post above ground buried, with a minimum that suits your frost line. Shallow posts lever out in wind.</li>
+    <li><strong>Below frost where it freezes:</strong> in cold climates, a post base above the frost line will heave. Bell the bottom or use a wider base to resist uplift.</li>
+    <li><strong>Drain the base:</strong> a post sitting in a concrete cup that holds water rots faster. Slope the concrete crown away from the post and keep soil off the wood.</li>
+  </ul></div>
+
+  <h2>A Fence Run, Worked Through</h2>
+  <div class="box">
+    <p>Eight holes, each 12 inches across and 30 inches deep: radius 6 inches is 0.5 feet, depth 2.5 feet, so each hole is 3.1416 &times; 0.5&sup2; &times; 2.5 = 1.96 cubic feet. Eight holes give 15.71 cubic feet, or 0.58 cubic yards neat. With a 10% buffer, plan for 0.64 yards — about 29 eighty-pound bags. That is a comfortable bag job, and it is why many fence builders mix on site rather than ordering a truck for a short run.</p>
+    <p>Gate posts are the exception: they carry a swinging load, so go deeper and wider than line posts, and brace them before the concrete sets.</p>
+  </div>
+
+  <h2>Fence Post Questions</h2>
+  <div class="faq">
+    <details><summary>Should I use concrete or gravel for fence posts?</summary><p>Concrete gives the strongest, most wind-resistant set, especially for gates and corners. Gravel drains better and suits light fences in dry ground, but posts can shift more over time.</p></details>
+    <details><summary>How deep should a fence post hole be?</summary><p>As a starting point, bury about one-third of the post, and always get below the local frost depth in cold climates. Check local practice for your soil and fence height.</p></details>
+    <details><summary>Can I set posts in dry-mix concrete?</summary><p>Dry-mix works for light line posts in the right conditions, but for gates, corners, and wet ground, properly mixed concrete gives a more reliable result.</p></details>
+    <details><summary>How long before I can hang a gate?</summary><p>Wait until the concrete has gained enough strength — typically a few days for a gate post, longer in cold weather. Hanging a heavy gate too early is a classic way to pull a fresh post out of plumb.</p></details>
+  </div>
+
+  <div class="end">
+    <h2>Dig deep, set plumb, brace it</h2>
+    <p>Run the estimator above, then get slabs, footings, bags and costs at <a href="https://concretecalcus.com/">ConcreteCalcus</a> — free, no signup.</p>
+    <p><a href="https://concretecalcus.com/">Go to ConcreteCalcus &rarr;</a></p>
+  </div>
+</div>
+
+<footer>Free planning tools by <a href="https://concretecalcus.com/">ConcreteCalcus</a> — for homeowners and DIYers.</footer>
+
+<script>
+function calc(){
+  var dia=(parseFloat(document.getElementById('a').value)||0)/12;
+  var dep=(parseFloat(document.getElementById('b').value)||0)/12;
+  var n=parseFloat(document.getElementById('c').value)||0;
+  var b=parseFloat(document.getElementById('d').value);
+  var r=document.getElementById('res');
+  if(!(dia>0&&dep>0&&n>0)){r.className='show';r.innerHTML='<p>Please enter positive numbers for diameter, depth and hole count.</p>';return;}
+  var per=Math.PI*Math.pow(dia/2,2)*dep;
+  var neat=(per*n)/27, order=neat*(1+b);
+  r.className='show';
+  r.innerHTML='<div class="big">'+neat.toFixed(2)+' yd&sup3; neat — plan for '+order.toFixed(2)+' yd&sup3;</div><ul>'
+    +'<li>Per hole: '+per.toFixed(2)+' cu ft</li>'
+    +'<li>Buffer: '+Math.round(b*100)+'%</li>'
+    +'<li>80-lb bags: <strong>'+Math.ceil(order*27/0.60)+'</strong></li></ul>'
+    +'<p style="margin-top:10px">More shapes and a full cost breakdown? <a href="https://concretecalcus.com/">See all free tools on ConcreteCalcus</a>.</p>';
+}
+</script>
+</body>
+</html>
